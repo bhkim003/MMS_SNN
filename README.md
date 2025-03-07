@@ -4,7 +4,7 @@
 ![Jupyter Notebook](https://img.shields.io/badge/jupyter-%23FA0F00.svg?style=for-the-badge&logo=jupyter&logoColor=white)
 ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white)
 ![vscode](https://img.shields.io/badge/Made%20for-VSCode-1f425f.svg)
-
+ 
 
 ## MMS SNN Library
 
