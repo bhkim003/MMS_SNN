@@ -1,15 +1,17 @@
 import torch
 import torchvision
 
+import modules
+
 def data_loader(which_data, data_path, batch_size):
     if (which_data == 'MNIST'):
         IMAGE_SIZE = 28 # MINST는 일반적으로 28
 
-        # transform = torchvision.transforms.Compose([torchvision.transforms.Resize((IMAGE_SIZE, IMAGE_SIZE)),
-        #                         torchvision.transforms.ToTensor(),
-        #                         torchvision.transforms.Normalize((0.5),(0.5))])
         transform = torchvision.transforms.Compose([
-                                torchvision.transforms.ToTensor(),])
+            torchvision.transforms.Resize((IMAGE_SIZE, IMAGE_SIZE)),  # 예: 32x32로 크기 변경
+            torchvision.transforms.ToTensor(),
+            torchvision.transforms.Normalize((0.1307,), (0.3081,))
+        ])
 
         trainset = torchvision.datasets.MNIST(root=data_path,
                                             train=True,

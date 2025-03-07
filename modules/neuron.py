@@ -1,6 +1,6 @@
 
 import torch
-# import modules.data_loader # 이 파일에서 다른 모듈 쓰기
+
 import modules
     
 class LIF_layer(torch.nn.Module):
@@ -11,7 +11,6 @@ class LIF_layer(torch.nn.Module):
         self.v_reset_mode = v_reset_mode
         self.sg_width = sg_width
         self.surrogate = surrogate
-
     def forward(self, input_current):
         Time = input_current.shape[0]
         v = torch.full_like(input_current[0], fill_value = 0.0, dtype = torch.float, requires_grad=False)
