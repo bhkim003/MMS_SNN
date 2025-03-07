@@ -1,4 +1,11 @@
 # MMS_SNN
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white)
+![Jupyter Notebook](https://img.shields.io/badge/jupyter-%23FA0F00.svg?style=for-the-badge&logo=jupyter&logoColor=white)
+![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white)
+![vscode](https://img.shields.io/badge/Made%20for-VSCode-1f425f.svg)
+
+
 ## MMS SNN Library
 
 ===============================
@@ -12,3 +19,6 @@ bh_main (참고용, 정리x) 폴더에는 제가 실제로 사용했었던 정�
 
 2025.03.08 00:36 bhkim
 
+===============================
+
+Readme Badge: https://github.com/Envoy-VC/awesome-badges?tab=readme-ov-file#made-with
