@@ -4,9 +4,14 @@
 ![Jupyter Notebook](https://img.shields.io/badge/jupyter-%23FA0F00.svg?style=for-the-badge&logo=jupyter&logoColor=white)
 ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white)
 ![vscode](https://img.shields.io/badge/Made%20for-VSCode-1f425f.svg)
- 
+![wandb](https://img.shields.io/badge/Weights_&_Biases-FFCC33?style=for-the-badge&logo=WeightsAndBiases&logoColor=black)
 
 ## MMS SNN Library
+===============================
+
+wandb 세팅을 다시 할 일이 있어서 하는 김에 wandb run과 sweep하는 코드 배포합니다.
+
+2025.03.17 13:00 bhkim
 
 ===============================
 
